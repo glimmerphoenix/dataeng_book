@@ -1,5 +1,12 @@
 # Prefacio {.unnumbered}
 
-This is a Quarto book.
+Este manual presenta los elementos y conceptos básicos para ingeniería de datos, 
+desde un enfoque práctico. Por tanto, se presentan todos los fundamentos teóricos
+para el desarrollo de actividades de ingeniería de datos, incluyendo componentes
+clave como grafos de procesamiento de datos (DAG), *pipelines* de datos, 
+*feature engineering*, gestión y despliegue de modelos, etc. Cada elemento o concepto
+clave estará acompañado de ejemplos prácticos que ilustran su implementación en
+proyectos reales, con una o varias tecnologías.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+Este manual se ha creado con Quarto. Puedes consultar más información en el siguiente
+enlace de documentación: <https://quarto.org/docs/books>.
