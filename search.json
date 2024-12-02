@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Fundamentos de Ingeniería de Datos",
     "section": "",
-    "text": "Prefacio\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "text": "Prefacio\nEste manual presenta los elementos y conceptos básicos para ingeniería de datos, desde un enfoque práctico. Por tanto, se presentan todos los fundamentos teóricos para el desarrollo de actividades de ingeniería de datos, incluyendo componentes clave como grafos de procesamiento de datos (DAG), pipelines de datos, feature engineering, gestión y despliegue de modelos, etc. Cada elemento o concepto clave estará acompañado de ejemplos prácticos que ilustran su implementación en proyectos reales, con una o varias tecnologías.\nEste manual se ha creado con Quarto. Puedes consultar más información en el siguiente enlace de documentación: https://quarto.org/docs/books.",
     "crumbs": [
       "Prefacio"
     ]
@@ -14,7 +14,7 @@
     "href": "intro.html",
     "title": "1  Introducción",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. «Literate Programming». Comput. J. 27 (2): 97-111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "En cada capítulo podemos integrar partes de código ejecutable en Python, R o Julia junto con contenido formateado en Markdown.\nEjemplo Knuth (1984) de una cita bibliográfica.\n\n\n\n\nKnuth, Donald E. 1984. «Literate Programming». Comput. J. 27 (2): 97-111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introducción</span>"
     ]
@@ -24,7 +24,7 @@
     "href": "summary.html",
     "title": "2  Resumen",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.",
+    "text": "Otro capítulo al final.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Resumen</span>"
     ]
