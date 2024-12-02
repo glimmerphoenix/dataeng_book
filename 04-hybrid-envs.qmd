@@ -1,0 +1,12 @@
+# Entornos híbridos de procesamiento de datos
+
+Contenidos:
+
+- Soluciones de procesamiento *batch* vs *streaming*.
+- Procesamiento streaming de datos estructurados en Spark.
+    - Structured Streaming.
+
+- Spark Structured Streaming.
+    - Elementos constituyentes.
+    - Catálogo de operaciones.
+    - Modos de operación y salida.

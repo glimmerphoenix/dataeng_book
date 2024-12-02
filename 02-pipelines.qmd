@@ -1,0 +1,23 @@
+# *Pipelines* de procesamiento de datos
+
+Contenidos:
+
+- Concepto de *pipeline* de datos.
+    
+    - DAG: grafos de trabajo con datos.
+    - Elementos constituyentes: *task*, *stage*, *lane*, *scheduler*, ...
+    - Diseño de grafos de trabajo con datos.
+
+- Aplicaciones:
+    
+    - Ingesta/obtención de datos.
+    - Procesamiento de datos.
+    - Ajuste/entrenamiento de modelos/algoritmos.
+    - Reajuste/reentrenamiento de modelos/algoritmos.
+    - Trasvase de datos streaming --> batch.
+
+- Tecnologías: Apache Airflow.
+
+- Tecnologías: Apache Beam.
+
+- Otros ejemplos tecnológicos: Luigi (Python), Targets (R).

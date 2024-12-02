@@ -1,0 +1,11 @@
+# Procesamiento de datos semi-estructurados y no estructurados
+
+Contenidos:
+
+- Utilización de bibliotecas/extensiones en Spark.
+    - Tratamiento de datos JSON.
+    - Tratamiento de datos XML.
+
+- Conexiones con colas de mensajes.
+    - Tecnología: Apache Kafka.
+    - Conexión Kafka + Spark para procesamiento streaming.

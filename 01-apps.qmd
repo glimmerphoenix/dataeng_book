@@ -1,6 +1,30 @@
-# Introducción
+# Sistemas y aplicaciones de ingeniería de datos
 
 En cada capítulo podemos integrar partes de código ejecutable en Python, R o Julia junto
 con contenido formateado en Markdown.
 
 Ejemplo @knuth84 de una cita bibliográfica.
+
+Contenidos:
+
+- Ciclo completo de proyectos de ciencia de datos.
+
+    - Esquemas de implementación: lab. vs producción.
+    - Registro/catálogo de modelos.
+    - CI/CD.
+    - Monitorización y seguimiento.
+
+- Arquitecturas de procesamiento de datos: propuestas y tendencias.
+- Arquitectura *data mesh*.
+
+    - Propuesta organizativa.
+    - Propuesta tecnológica.
+
+- El *data lake*.
+
+    - Concepto y aplicaciones.
+    - Ejemplos tecnológicos.
+    - Riesgos de aplicaciones y buenas prácticas.
+
+- Casos de ejemplo: algunas combinaciones tecnológicas para arquitecturas
+de procesamiento de datos.

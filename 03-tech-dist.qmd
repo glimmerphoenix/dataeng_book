@@ -1,0 +1,26 @@
+# Tecnologías de procesamiento distribuido de datos
+
+- Apache Spark.
+
+    - Arquitecturas de procesamiento distribuido en Spark.
+        - Modo cliente vs. modo despliegue.
+    - Detalles de procesamiento distribuido en Spark.
+        - DAGs de procesamiento de datos.
+        - Optimización a nivel lógico.
+        - Optimización a nivel físico.
+    - Ejemplos con Spark SQL y Spark Core.
+
+- Apache Flink.
+
+    - Procesamiento *streaming* estricto.
+    - Comparativa con Apache Spark.
+
+- Dask (Python).
+
+    - Procesamiento de datos nativo en Python.
+    - Modos de procesamiento de datos (multi-core vs. distribuido).
+    - Comparativa con Spark y Flink.
+
+- Multiprocesamiento en otros lenguajes.
+
+    - Ejemplos con Go (sólo ilustrativos).

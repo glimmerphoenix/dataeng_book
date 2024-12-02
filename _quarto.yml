@@ -9,7 +9,21 @@ book:
   date: "2024-07-17"
   chapters:
     - index.qmd
-    - intro.qmd
+    - part: "Fundamentos de ingeniería de datos"
+      chapters:
+        - 01-apps.qmd
+        - 02-pipelines.qmd
+    - part: "Entornos de procesamiento distribuido de datos"
+      chapters:
+        - 03-tech-dist.qmd
+        - 04-hybrid-envs.qmd
+    - part: "Desarrollo de aplicaciones de procesamiento de datos"
+      chapters:
+        - 05-struct-data.qmd
+        - 06-semi-unstruct-data.qmd
+    - part: "Aprendizaje máquina escalable"
+      chapters:
+        - 07-scalable-ml.qmd
     - summary.qmd
     - references.qmd
 lang: es

@@ -1,0 +1,17 @@
+# Aplicaciones escalables de aprendizaje máquina
+
+- Aprendizaje máquina escalable.
+
+    - Diferencias respecto al ML en un solo nodo.
+    - Retos y limitaciones.
+    - Ejemplos tecnológicos.
+        - Spark ML.
+        - H2O.
+
+- Spark ML.
+    - Principales algoritmos.
+    - Ejemplos de algoritmos de aprendizaje supervisado.
+    - Ejemplos de algoritmos de aprendizaje no supervisado.
+
+- Redes neuronales y modelos fundacionales.
+

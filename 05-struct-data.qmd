@@ -1,0 +1,10 @@
+# Procesamiento de datos estructurados
+
+Contenidos:
+
+- Análisis avanzado de datos estructurados con Spark.
+    - Operaciones con eventanado (*windows*).
+    - *Watermarks* y obsolescencia de datos.
+    - Funciones definidas por el usuario (UDFs).
+
+- Ampliación de operaciones *shuffle* en Spark ??
