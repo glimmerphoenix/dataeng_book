@@ -1,0 +1,6 @@
+# Introducción
+
+En cada capítulo podemos integrar partes de código ejecutable en Python, R o Julia junto
+con contenido formateado en Markdown.
+
+Ejemplo @knuth84 de una cita bibliográfica.
