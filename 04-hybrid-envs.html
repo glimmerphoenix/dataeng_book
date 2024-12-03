@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Felipe Ortega">
 
-<title>Fundamentos de Ingeniería de Datos</title>
+<title>4&nbsp; Entornos híbridos de procesamiento de datos – Fundamentos de Ingeniería de Datos</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./01-apps.html" rel="next">
+<link href="./05-struct-data.html" rel="next">
+<link href="./03-tech-dist.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Prefacio</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./03-tech-dist.html">Entornos de procesamiento distribuido de datos</a></li><li class="breadcrumb-item"><a href="./04-hybrid-envs.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Entornos híbridos de procesamiento de datos</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
@@ -113,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Prefacio</span></a>
   </div>
 </li>
@@ -157,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04-hybrid-envs.html" class="sidebar-item-text sidebar-link">
+  <a href="./04-hybrid-envs.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Entornos híbridos de procesamiento de datos</span></span></a>
   </div>
 </li>
@@ -220,41 +220,22 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Tabla de contenidos</h2>
-   
-  <ul>
-  <li><a href="#prefacio" id="toc-prefacio" class="nav-link active" data-scroll-target="#prefacio">Prefacio</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/glimmerphoenix/dataeng_book/blob/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Ver el código</a></li><li><a href="https://github.com/glimmerphoenix/dataeng_book/edit/main/index.qmd" class="toc-action"><i class="bi empty"></i>Editar esta página</a></li><li><a href="https://github.com/glimmerphoenix/dataeng_book/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./03-tech-dist.html">Entornos de procesamiento distribuido de datos</a></li><li class="breadcrumb-item"><a href="./04-hybrid-envs.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Entornos híbridos de procesamiento de datos</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Fundamentos de Ingeniería de Datos</h1>
-<p class="subtitle lead">Un enfoque práctico</p>
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Entornos híbridos de procesamiento de datos</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Autor/a</div>
-    <div class="quarto-title-meta-contents">
-             <p>Felipe Ortega </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Fecha de publicación</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">17 de julio de 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -264,13 +245,22 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="prefacio" class="level1 unnumbered">
-<h1 class="unnumbered">Prefacio</h1>
-<p>Este manual presenta los elementos y conceptos básicos para ingeniería de datos, desde un enfoque práctico. Por tanto, se presentan todos los fundamentos teóricos para el desarrollo de actividades de ingeniería de datos, incluyendo componentes clave como grafos de procesamiento de datos (DAG), <em>pipelines</em> de datos, <em>feature engineering</em>, gestión y despliegue de modelos, etc. Cada elemento o concepto clave estará acompañado de ejemplos prácticos que ilustran su implementación en proyectos reales, con una o varias tecnologías.</p>
-<p>Este manual se ha creado con Quarto. Puedes consultar más información en el siguiente enlace de documentación: <a href="https://quarto.org/docs/books" class="uri">https://quarto.org/docs/books</a>.</p>
+<p>Contenidos:</p>
+<ul>
+<li>Soluciones de procesamiento <em>batch</em> vs <em>streaming</em>.</li>
+<li>Procesamiento streaming de datos estructurados en Spark.
+<ul>
+<li>Structured Streaming.</li>
+</ul></li>
+<li>Spark Structured Streaming.
+<ul>
+<li>Elementos constituyentes.</li>
+<li>Catálogo de operaciones.</li>
+<li>Modos de operación y salida.</li>
+</ul></li>
+</ul>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -695,10 +685,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./03-tech-dist.html" class="pagination-link" aria-label="Tecnologías de procesamiento distribuido de datos">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Tecnologías de procesamiento distribuido de datos</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./01-apps.html" class="pagination-link" aria-label="Sistemas y aplicaciones de ingeniería de datos">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Sistemas y aplicaciones de ingeniería de datos</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./05-struct-data.html" class="pagination-link" aria-label="Procesamiento de datos estructurados">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Procesamiento de datos estructurados</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -707,4 +700,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/glimmerphoenix/dataeng_book/blob/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Ver el código</a></li><li><a href="https://github.com/glimmerphoenix/dataeng_book/edit/main/index.qmd" class="toc-action"><i class="bi empty"></i>Editar esta página</a></li><li><a href="https://github.com/glimmerphoenix/dataeng_book/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/glimmerphoenix/dataeng_book/blob/main/04-hybrid-envs.qmd" class="toc-action"><i class="bi bi-github"></i>Ver el código</a></li><li><a href="https://github.com/glimmerphoenix/dataeng_book/edit/main/04-hybrid-envs.qmd" class="toc-action"><i class="bi empty"></i>Editar esta página</a></li><li><a href="https://github.com/glimmerphoenix/dataeng_book/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></div></div></footer></body></html>

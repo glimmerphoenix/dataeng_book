@@ -10,23 +10,90 @@
     ]
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introducción",
+    "objectID": "01-apps.html",
+    "href": "01-apps.html",
+    "title": "1  Sistemas y aplicaciones de ingeniería de datos",
     "section": "",
-    "text": "En cada capítulo podemos integrar partes de código ejecutable en Python, R o Julia junto con contenido formateado en Markdown.\nEjemplo Knuth (1984) de una cita bibliográfica.\n\n\n\n\nKnuth, Donald E. 1984. «Literate Programming». Comput. J. 27 (2): 97-111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "En cada capítulo podemos integrar partes de código ejecutable en Python, R o Julia junto con contenido formateado en Markdown.\nEjemplo Knuth (1984) de una cita bibliográfica.\nContenidos:\n\nCiclo completo de proyectos de ciencia de datos.\n\nEsquemas de implementación: lab. vs producción.\nRegistro/catálogo de modelos.\nCI/CD.\nMonitorización y seguimiento.\n\nArquitecturas de procesamiento de datos: propuestas y tendencias.\nArquitectura data mesh.\n\nPropuesta organizativa.\nPropuesta tecnológica.\n\nEl data lake.\n\nConcepto y aplicaciones.\nEjemplos tecnológicos.\nRiesgos de aplicaciones y buenas prácticas.\n\nCasos de ejemplo: algunas combinaciones tecnológicas para arquitecturas de procesamiento de datos.\n\n\n\n\n\nKnuth, Donald E. 1984. «Literate Programming». Comput. J. 27 (2): 97-111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introducción</span>"
+      "Fundamentos de ingeniería de datos",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Sistemas y aplicaciones de ingeniería de datos</span>"
+    ]
+  },
+  {
+    "objectID": "02-pipelines.html",
+    "href": "02-pipelines.html",
+    "title": "2  Pipelines de procesamiento de datos",
+    "section": "",
+    "text": "Contenidos:\n\nConcepto de pipeline de datos.\n\nDAG: grafos de trabajo con datos.\nElementos constituyentes: task, stage, lane, scheduler, …\nDiseño de grafos de trabajo con datos.\n\nAplicaciones:\n\nIngesta/obtención de datos.\nProcesamiento de datos.\nAjuste/entrenamiento de modelos/algoritmos.\nReajuste/reentrenamiento de modelos/algoritmos.\nTrasvase de datos streaming –&gt; batch.\n\nTecnologías: Apache Airflow.\nTecnologías: Apache Beam.\nOtros ejemplos tecnológicos: Luigi (Python), Targets (R).",
+    "crumbs": [
+      "Fundamentos de ingeniería de datos",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>*Pipelines* de procesamiento de datos</span>"
+    ]
+  },
+  {
+    "objectID": "03-tech-dist.html",
+    "href": "03-tech-dist.html",
+    "title": "3  Tecnologías de procesamiento distribuido de datos",
+    "section": "",
+    "text": "Apache Spark.\n\nArquitecturas de procesamiento distribuido en Spark.\n\nModo cliente vs. modo despliegue.\n\nDetalles de procesamiento distribuido en Spark.\n\nDAGs de procesamiento de datos.\nOptimización a nivel lógico.\nOptimización a nivel físico.\n\nEjemplos con Spark SQL y Spark Core.\n\nApache Flink.\n\nProcesamiento streaming estricto.\nComparativa con Apache Spark.\n\nDask (Python).\n\nProcesamiento de datos nativo en Python.\nModos de procesamiento de datos (multi-core vs. distribuido).\nComparativa con Spark y Flink.\n\nMultiprocesamiento en otros lenguajes.\n\nEjemplos con Go (sólo ilustrativos).",
+    "crumbs": [
+      "Entornos de procesamiento distribuido de datos",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tecnologías de procesamiento distribuido de datos</span>"
+    ]
+  },
+  {
+    "objectID": "04-hybrid-envs.html",
+    "href": "04-hybrid-envs.html",
+    "title": "4  Entornos híbridos de procesamiento de datos",
+    "section": "",
+    "text": "Contenidos:\n\nSoluciones de procesamiento batch vs streaming.\nProcesamiento streaming de datos estructurados en Spark.\n\nStructured Streaming.\n\nSpark Structured Streaming.\n\nElementos constituyentes.\nCatálogo de operaciones.\nModos de operación y salida.",
+    "crumbs": [
+      "Entornos de procesamiento distribuido de datos",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Entornos híbridos de procesamiento de datos</span>"
+    ]
+  },
+  {
+    "objectID": "05-struct-data.html",
+    "href": "05-struct-data.html",
+    "title": "5  Procesamiento de datos estructurados",
+    "section": "",
+    "text": "Contenidos:\n\nAnálisis avanzado de datos estructurados con Spark.\n\nOperaciones con eventanado (windows).\nWatermarks y obsolescencia de datos.\nFunciones definidas por el usuario (UDFs).\n\nAmpliación de operaciones shuffle en Spark ??",
+    "crumbs": [
+      "Desarrollo de aplicaciones de procesamiento de datos",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Procesamiento de datos estructurados</span>"
+    ]
+  },
+  {
+    "objectID": "06-semi-unstruct-data.html",
+    "href": "06-semi-unstruct-data.html",
+    "title": "6  Procesamiento de datos semi-estructurados y no estructurados",
+    "section": "",
+    "text": "Contenidos:\n\nUtilización de bibliotecas/extensiones en Spark.\n\nTratamiento de datos JSON.\nTratamiento de datos XML.\n\nConexiones con colas de mensajes.\n\nTecnología: Apache Kafka.\nConexión Kafka + Spark para procesamiento streaming.",
+    "crumbs": [
+      "Desarrollo de aplicaciones de procesamiento de datos",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Procesamiento de datos semi-estructurados y no estructurados</span>"
+    ]
+  },
+  {
+    "objectID": "07-scalable-ml.html",
+    "href": "07-scalable-ml.html",
+    "title": "7  Aplicaciones escalables de aprendizaje máquina",
+    "section": "",
+    "text": "Aprendizaje máquina escalable.\n\nDiferencias respecto al ML en un solo nodo.\nRetos y limitaciones.\nEjemplos tecnológicos.\n\nSpark ML.\nH2O.\n\n\nSpark ML.\n\nPrincipales algoritmos.\nEjemplos de algoritmos de aprendizaje supervisado.\nEjemplos de algoritmos de aprendizaje no supervisado.\n\nRedes neuronales y modelos fundacionales.",
+    "crumbs": [
+      "Aprendizaje máquina escalable",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Aplicaciones escalables de aprendizaje máquina</span>"
     ]
   },
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "2  Resumen",
+    "title": "8  Conclusiones",
     "section": "",
-    "text": "Otro capítulo al final.",
+    "text": "Resumen y principales conclusiones.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Resumen</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Conclusiones</span>"
     ]
   },
   {
