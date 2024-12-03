@@ -1,6 +1,9 @@
 project:
   type: book
   output-dir: docs
+  preview:
+    port: 9001
+    browser: true
 
 book:
   title: "Fundamentos de Ingeniería de Datos"
@@ -32,6 +35,7 @@ bibliography: references.bib
 format:
   html:
     theme: cosmo
+    css: styles.css
   pdf:
     documentclass: scrreprt
 
