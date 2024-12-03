@@ -29,6 +29,9 @@ book:
         - 07-scalable-ml.qmd
     - summary.qmd
     - references.qmd
+  downloads: [pdf]
+  repo-url: https://github.com/glimmerphoenix/dataeng_book
+  repo-actions: [source, edit, issue]
 lang: es
 bibliography: references.bib
 
@@ -37,7 +40,29 @@ format:
     theme: cosmo
     css: styles.css
   pdf:
-    documentclass: scrreprt
+    documentclass: scrbook
+    classoption:
+      - a4paper 
+      - oneside
+      - parskip=half+
+      - numbers=noenddot
+      - cleardoublepage=empty
+      - DIV=15
+    hyperrefoptions: 
+      - linktocpage=true
+    include-in-header: 
+       text: |
+        % Line and page breaking
+        \sloppy
+        \clubpenalty = 10000
+        \widowpenalty = 10000
+        \brokenpenalty = 10000
+
+        \usepackage{fvextra}
+        \DefineVerbatimEnvironment{Highlighting}{Verbatim}{
+          commandchars=\\\{\},
+          breaklines, breaknonspaceingroup, breakanywhere
+        }
 
 
 
